@@ -1,5 +1,7 @@
 #Git Notes
+
 ##What is Git?
+
 Git is a version control system. Can be distributed through GitHub and also local. 
 
 ##Basic Workflow
