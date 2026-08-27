@@ -20,6 +20,7 @@ git push
 #Learning Notes
 
 ##Day 1 & 2 - 25/26 Aug 2026 (Written up on 27 Aug)
+
 Topic: Learning What Git/GitHub is and learning basic commands 
 
 Learned
@@ -40,15 +41,17 @@ What I can do now:
 Next session -> Learn pull, branches, remote
 
 ##Day 3 - 27 Aug 2026
+
 Topic: Continuing learning git basics and Practiced
 
-Read up on:
+What I learned:
 - Skipping staging part (adding -a to git commit 'git commit -a -m 'Commiting')
 - Practiced git clone (cloning easy python projects)
 - Read up on git remote
 - Read up on branching and merging (what branches are, how to set up one, its usefulness, and how to merge branches)
 
 ###Branching
+
 Branching is a top git feature that allows you to work on a copy of the repository without messing up the main development
 
 Because Git captures snapshots, everytime you commit and push it captures a snapshot and points back to the previous snapshot. 
@@ -57,5 +60,10 @@ Creating a new branch means you create a new base in which to start pointing
 - Close branch by using -d 'git branch -d [branch name]'
 
 ###Merging
+
 'git merge [branch name]'
 The command would merge the branch with the branch that is currently pointed at by 'git checkout [branch name]' i.e. HEAD
+
+What I can do now:
+- Clone a repository
+- Troubleshooting an embedded repository error
