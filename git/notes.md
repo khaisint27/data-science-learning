@@ -79,6 +79,7 @@ Started learning SQL (see sql folder)
 Wanted to commit and push sql_notes to git but returns fatal error "fatal: No configured push destination."
 Problem fixed:
 1. initialised git within the subfolder data-science-learning/sql instead of data-science-learning (main directory)
-2. that created another .git repo within
+2. that created another .git repo within the main repo
 3. when that is sucessfully added and pushed, it created a submodule on GitHub
-4. fixed by removing the submodule and readded and pushed the folder through the main repo.
+4. github does not have access to it so it shows up as a link that cannot be opened
+5. fixed by removing the submodule and re-added and pushed the folder through the main repo. (git rm --cached sql -> git add sql -> git commit -m -> git push)
