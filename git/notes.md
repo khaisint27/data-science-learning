@@ -73,3 +73,12 @@ The command would merge the branch with the branch that is currently pointed at 
 What I can do now:
 - Clone a repository
 - Troubleshooting an embedded repository error
+
+## Day 4 - 31 Aug 2026
+Started learning SQL (see sql folder)
+Wanted to commit and push sql_notes to git but returns fatal error "fatal: No configured push destination."
+Problem fixed:
+1. initialised git within the subfolder data-science-learning/sql instead of data-science-learning (main directory)
+2. that created another .git repo within
+3. when that is sucessfully added and pushed, it created a submodule on GitHub
+4. fixed by removing the submodule and readded and pushed the folder through the main repo.
