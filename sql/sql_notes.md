@@ -129,3 +129,6 @@ DROP TABLE IF EXISTS mytable;
 Drop table is not the same as delete as dropping also removes the table schema too
 
 #SQLBolt Completed
+Next steps to learning SQL: 
+1. Read Up on some Intermediate SQL on ToughSpot, start on SQL Analytics training on ToughSpot
+2. Install PostgreSQL
